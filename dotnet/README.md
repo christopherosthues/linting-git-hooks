@@ -2,6 +2,10 @@
 
 This script installs a linter for dotnet as a pre-commit hook for git. It uses Node and husky to install and maintain the git hook and its dependencies. The .NET tool dotnet-format is used as linter.
 
+## Pre-requisites
+
+The tool uses node, the dotnet CLI and the dotnet-format tool. Please make sure to install these tools before executing the install script.
+
 ## Usage
 ```zsh
 <path to the install script>/install-hook.py
